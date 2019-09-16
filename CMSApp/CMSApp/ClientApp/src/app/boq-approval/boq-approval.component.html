@@ -1,0 +1,79 @@
+<div class="container">
+  <div class="row wrapper fadeInDown">
+    <div id="formContent">
+      <div class="container mt-2 mb-2">
+        <div class="row">
+          <div class="col col-example text-left"><span class="font-weight-bold">Owner</span> : {{name}}</div>
+          <div class="col col-example text-right"><span class="font-weight-bold">Est Total Amount(Rs)</span> : {{totalAmount}}</div>
+          <div class="w-100"></div>
+          <div class="col col-example text-left"><span class="font-weight-bold">Type of Work</span> : {{boqItem.description}}</div>
+          <div class="col col-example text-right"><span class="font-weight-bold">Created Date</span> : {{boqItem.createdDate}}</div>
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Description</th>
+              <th scope="col">Units</th>
+              <th scope="col">Unit Type</th>
+              <th scope="col">Unit Price(Rs)</th>
+              <th scope="col">Estimated Amount(Rs)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of boqItem.items">
+              <th scope="row">{{item.id}}</th>
+              <td>{{item.description}}</td>
+              <td>{{item.units }}</td>
+              <td>{{item.unitType  | lowercase}}</td>
+              <td>{{item.unitPrice}}</td>
+              <td>{{item.units * item.unitPrice}}</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="card-footer text-muted text-center mt-4" data-intro='Field information based on player moves.' data-step=7>
+          <div class="col col-example text-right"><span class="font-weight-bold">Est Total Amount(Rs)</span> : {{totalAmount}}</div>
+          <br />
+          <button type="button" class="btn btn-sm btn-outline-primary waves-effect" [routerLink]="['/approval-content']">Back</button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button type="button" *ngIf="boqItem.status == 'Pending'" class="btn btn-sm btn-outline-primary waves-effect" (click)="setBOQStatus('Approved')">Approve</button>
+          <button type="button" *ngIf="boqItem.status == 'Pending'" class="btn btn-sm btn-outline-danger waves-effect" data-toggle="modal" data-target="#myModal">&nbsp;Reject&nbsp;</button>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Remarks/Reason</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body mx-3">
+                <div class="md-form mb-4">
+                  <textarea type="text" [(ngModel)]="comments" class="md-textarea form-control pt-5" rows="4"></textarea>
+                  <label data-error="wrong" data-success="right" for="defaultForm-pass">Your comment</label>
+                </div>
+
+              </div>
+              <div class="modal-footer d-flex justify-content-center">
+                <button class="btn btn-sm btn-outline-danger waves-effect close" data-dismiss="modal" aria-label="Close" type="submit" (click)="setBOQStatus('Rejected')">submit
+                <!--<span aria-hidden="true">&times;</span>-->
+                </button>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--ENDS HERE-->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+

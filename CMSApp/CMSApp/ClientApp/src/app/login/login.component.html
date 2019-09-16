@@ -1,0 +1,14 @@
+  <div class="wrapper fadeInDown">
+    <div id="formContent">      
+      <div class="fadeIn first">
+        <br />
+        <br />
+      </div>
+      <form #loginForm="ngForm"
+            (ngSubmit)="onSubmit(loginForm)" class="needs-validation" >
+        <input type="text" class="fadeIn second" name="login" [(ngModel)]="login" placeholder="Login" required>
+        <input type="password" class="fadeIn third" name="password" [(ngModel)]="password" placeholder="Password" required>        
+        <input type="submit" class="fadeIn fourth" value="Log In">
+      </form>
+    </div>
+  </div>

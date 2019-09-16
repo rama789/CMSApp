@@ -1,0 +1,1307 @@
+[
+  {
+    "Id": 1,
+    "Name": "BOQ001",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U1",
+    "CreatedDate": "20/07/2019",
+    "TotalAmount": 650000,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 1000,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 1000,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "BOQ002",
+    "Description": "House Construction",
+    "CreatedBy": "U1",
+    "CreatedDate": "25/07/2019",
+    "TotalAmount": 900000,
+    "Status": "Pending",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 5000,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 100,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 500,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "BOQ003",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U1",
+    "CreatedDate": "21/08/2019",
+    "TotalAmount": 605000,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 1000,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 100,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "BOQ004",
+    "Description": "House Construction",
+    "CreatedBy": "U2",
+    "CreatedDate": "20/07/2019",
+    "TotalAmount": 510000,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 5000,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 100,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 500,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "BOQ005",
+    "Description": "House Construction",
+    "CreatedBy": "U2",
+    "CreatedDate": "29/08/2019",
+    "TotalAmount": 137500,
+    "Status": "Pending",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 5000,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 10,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "BOQ006",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U2",
+    "CreatedDate": "28/06/2019",
+    "TotalAmount": 127500,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 150,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "BOQ007",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U3",
+    "CreatedDate": "20/07/2019",
+    "TotalAmount": 7750,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "BOQ008",
+    "Description": "House Construction",
+    "CreatedBy": "U3",
+    "CreatedDate": "01/09/2019",
+    "TotalAmount": 90000,
+    "Status": "Pending",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 50,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 500,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 10,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Name": "BOQ009",
+    "Description": "House Construction",
+    "CreatedBy": "U3",
+    "CreatedDate": "19/05/2019",
+    "TotalAmount": 90000,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 50,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 500,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 10,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "Name": "BOQ010",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U3",
+    "CreatedDate": "13/07/2019",
+    "TotalAmount": 80000,
+    "Status": "Pending",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 100,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "Name": "BOQ011",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U1",
+    "CreatedDate": "20/07/2019",
+    "TotalAmount": 605000,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 1000,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 100,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "BOQ012",
+    "Description": "House Construction",
+    "CreatedBy": "U1",
+    "CreatedDate": "25/07/2019",
+    "TotalAmount": 337500,
+    "Status": "Pending",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 5000,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 10,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 500,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "BOQ013",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U1",
+    "CreatedDate": "21/08/2019",
+     "TotalAmount": 605000,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 1000,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 100,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "BOQ014",
+    "Description": "House Construction",
+    "CreatedBy": "U2",
+    "CreatedDate": "20/07/2019",
+    "TotalAmount": 510000,
+    "Status": "Approved",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 5000,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 100,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 500,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "BOQ015",
+    "Description": "House Construction",
+    "CreatedBy": "U2",
+    "CreatedDate": "29/08/2019",
+    "TotalAmount": 137500,
+    "Status": "Pending",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 5000,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 10,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "BOQ016",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U2",
+    "CreatedDate": "28/06/2019",
+    "TotalAmount": 177500,
+    "Status": "Approved",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 150,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 150,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "BOQ017",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U3",
+    "CreatedDate": "20/07/2019",
+    "TotalAmount": 77500,
+    "Status": "Approved",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "BOQ018",
+    "Description": "House Construction",
+    "CreatedBy": "U3",
+    "CreatedDate": "01/09/2019",
+    "TotalAmount": 87500,
+    "Status": "Pending",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 500,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 5,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Name": "BOQ019",
+    "Description": "House Construction",
+    "CreatedBy": "U3",
+    "CreatedDate": "19/05/2019",
+    "TotalAmount": 87500,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 500,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 5,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "Name": "BOQ020",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U3",
+    "CreatedDate": "13/07/2019",
+    "TotalAmount": 82500,
+    "Status": "Pending",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 150,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "Name": "BOQ021",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U1",
+    "CreatedDate": "20/07/2019",
+     "TotalAmount": 60500,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 100,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "BOQ022",
+    "Description": "House Construction",
+    "CreatedBy": "U1",
+    "CreatedDate": "25/07/2019",
+    "TotalAmount": 225000,
+    "Status": "Pending",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 500,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 10,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 500,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "BOQ023",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U1",
+    "CreatedDate": "21/08/2019",
+    "TotalAmount": 60500,
+    "Status": "Approved",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 100,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "BOQ024",
+    "Description": "House Construction",
+    "CreatedBy": "U2",
+    "CreatedDate": "20/07/2019",
+    "TotalAmount": 510000,
+    "Status": "Approved",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 5000,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 100,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 500,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "BOQ025",
+    "Description": "House Construction",
+    "CreatedBy": "U2",
+    "CreatedDate": "29/08/2019",
+    "TotalAmount": 140000,
+    "Status": "Pending",
+    "Comments": "",
+    "Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 100,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 5000,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 15,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "BOQ026",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U2",
+    "CreatedDate": "28/06/2019",
+    "TotalAmount": 140250,
+    "Status": "Approved",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 150,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 80,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "BOQ027",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U3",
+    "CreatedDate": "20/07/2019",
+    "TotalAmount": 77500,
+    "Status": "Approved",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "BOQ028",
+    "Description": "House Construction",
+    "CreatedBy": "U3",
+    "CreatedDate": "01/09/2019",
+    "TotalAmount": 1250000,
+    "Status": "Pending",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 5000,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 100,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 500,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 29,
+    "Name": "BOQ029",
+    "Description": "House Construction",
+    "CreatedBy": "U3",
+    "CreatedDate": "19/05/2019",
+    "TotalAmount": 112500,
+    "Status": "Approved",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Sand",
+        "UnitType": "cFt",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Cement",
+        "UnitType": "Kg",
+        "Units": 500,
+        "UnitPrice": 50,
+        "EstimatedAmount": 250000
+      },
+      {
+        "Id": 3,
+        "Description": "Door",
+        "UnitType": "sqFt",
+        "Units": 10,
+        "UnitPrice": 5000,
+        "EstimatedAmount": 500000
+      },
+      {
+        "Id": 4,
+        "Description": "Iron Rods",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 250,
+        "EstimatedAmount": 125000
+      }
+    ]
+  },
+  {
+    "Id": 30,
+    "Name": "BOQ30",
+    "Description": "Computer Assembly",
+    "CreatedBy": "U3",
+    "CreatedDate": "13/07/2019",
+    "TotalAmount": 77500,
+    "Status": "Pending",
+    "Comments": "","Items": [
+      {
+        "Id": 1,
+        "Description": "Keyboard",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 2,
+        "Description": "Mouse",
+        "UnitType": "count",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      },
+      {
+        "Id": 3,
+        "Description": "Cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 50,
+        "EstimatedAmount": 2500
+      },
+      {
+        "Id": 4,
+        "Description": "HDMI cable",
+        "UnitType": "metres",
+        "Units": 50,
+        "UnitPrice": 500,
+        "EstimatedAmount": 25000
+      }
+    ]
+  }
+]

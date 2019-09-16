@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600)");
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~ngx-toastr/toastr.css";
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Heading */
+h1 {
+  font-size: 30px;
+  line-height: 38px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 30px;
+}

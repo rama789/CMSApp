@@ -1,0 +1,141 @@
+a.navbar-brand {
+  white-space: normal;
+  text-align: left;
+  word-break: break-all;
+}
+
+html {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+li {
+  display: inline-block;
+  cursor: pointer;
+}
+
+  li a {
+    padding: 16px 10px;
+    color: #333;
+    font-weight: 400;
+  }
+
+
+  #location:hover {
+    background-color: #fff;
+  }
+
+  li a:hover {
+    color: #333;
+  }
+
+  li a img {
+    margin-left: 0;
+  }
+
+.upper-nav {
+  background: #f4f4f4;
+  color: #333;
+  height: 52px;
+}
+
+.left-menu {
+  margin-left: -10px;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #56baed;
+  border: none;
+  color: white;
+  padding: 11px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 10px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #39ace7;
+  }
+
+  input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+
+.fadeIn.fourth {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.right-menu {
+  float: right;
+  margin-right: -15px;
+}
+
+  .right-menu li {
+    padding: 15px 0;
+  }
+
+    .right-menu li:last-child {
+      padding: 0;
+    }
+
+      .right-menu li:last-child:hover {
+        background-color: transparent;
+      }
+
+#location {
+  position: absolute;
+  top: -2px;
+  right: 0;
+  width: auto;
+  background: #f4f4f4;
+  height: 52px;
+}
+
+#language {
+  margin-left: -10px;
+  height: 52px;
+}
+
+@media only screen and (min-width: 768px) {
+  #location {
+    position: static;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 1124px) {
+  li a {
+    padding: 16px 15px;
+  }
+}

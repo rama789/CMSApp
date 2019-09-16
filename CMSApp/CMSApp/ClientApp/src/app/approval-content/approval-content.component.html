@@ -1,0 +1,36 @@
+<div class="container">    
+  <div class="row wrapper fadeInDown">
+    <div id="formContent">
+      <div class="table-responsive">
+
+
+        <table class="table table-striped">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">BOQ</th>
+              <th scope="col">Description</th>
+              <th scope="col">Estimated Amount</th>
+              <th scope="col">Created Date</th>
+              <th scope="col">Approval Status</th>
+              <th scope="col">Comments</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let boqContent of boqContents">
+              <th scope="row"><a class="text-primary" [routerLink]="['/approval-content', boqContent.name]">{{boqContent.name}}</a></th>
+              <td>{{boqContent.description}}</td>
+              <td>{{calculateTotalAmount(boqContent.name)}}</td>
+              <td>{{boqContent.createdDate}}</td>
+              <td>
+                <div [ngStyle]="{'color': boqContent.status === 'Rejected' ? 'red' : boqContent.status === 'Approved' ? 'blue' :'black'}">
+                  {{boqContent.status}}
+                </div>
+              </td>              
+              <td>{{boqContent.comments}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>    
+  </div>
+  </div>
